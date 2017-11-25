@@ -17,13 +17,6 @@ for i in soup.find_all('a', attrs = {'class' : "pl-video-title-link yt-uix-tile-
 a.close()
 b.close()
 
-import os
-names = open("order.txt")
-l = []
-for i in names:
-    l.append(str(i))
-for i in range(0, len(l)):
-    l[i] = l[i][:-1]
 
 import os
 names = open("order.txt")
